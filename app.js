@@ -11,6 +11,8 @@ function showOutput() {
         message = 'Its evening';
     } else if(cur>12) {
         message = 'Its afternoon';
+    } else if (cur >8  <12) {
+message = 'Its morning';
     } else if(cur<8) {
 message = "We should be in bed";
     } else {
